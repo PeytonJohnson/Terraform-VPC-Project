@@ -37,7 +37,7 @@ locals {
               yum install -y httpd.x86_64
               systemctl start httpd.service
               systemctl enable httpd.service
-              echo “AWS-POC created by Tommy Le” > /var/www/html/index.html
+              echo “AWS-POC created by Peyton Johnson” > /var/www/html/index.html
               EOF
   
 }
